@@ -49,5 +49,8 @@ function show2() {
     function show8() {
         document.getElementById("work").value=document.getElementById("work").value.substr(0,document.getElementById("work").value.length-1)
     }
+    function show11(){
+        document.getElementById('work').value+="-";
+    }
 
 
